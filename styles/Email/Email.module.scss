@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+.sidebarContainer {
+  overflow: scroll;
+  width: 30%;
+  height: 100%;
+  /* background-color: green; */
+  min-width: 300px;
+  border-right: 1px solid;
+  overflow-x: hidden;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.static {
+  width: 70%;
+  height: 100%;
+}
+
+// Scroll bar edit
+.sidebarContainer::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebarContainer::-webkit-scrollbar-track {
+  // background: orange; /* color of the tracking area */
+  width: 4px;
+}
+.sidebarContainer::-webkit-scrollbar-thumb {
+  // background-color: blue; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid orange; /* creates padding around scroll thumb */
+  cursor: pointer;
+}
+
+// Media Queries
+@media (max-width: 768px) {
+  .sidebarContainer {
+    width: 100%;
+  }
+  .static {
+    display: none;
+  }
+}

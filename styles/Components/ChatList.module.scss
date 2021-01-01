@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  height: 80px;
+  // background-color: red;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0px 15px 0px 15px;
+  word-wrap: break-word;
+  border-bottom: 1px solid;
+}
+
+.titleContainer {
+  width: 100%;
+  height: 100%;
+  // background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.userAvatar {
+  margin: 5px;
+  margin-right: 15px;
+
+  :hover {
+    opacity: 0.8;
+  }
+}
+.title {
+  // background-color: purple;
+  margin: 0px;
+}

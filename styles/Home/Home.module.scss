@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@500&display=swap");
+
+.container {
+  height: 100vh;
+  color: navajowhite;
+  font-family: system-ui, sans-serif;
+}
+
+.containerOne {
+  width: 100%;
+  height: 8%;
+  //   background-color: green;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+.containerTwo {
+  width: 100%;
+  height: 78%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  //   background-color: darkblue;
+}
+.containerThree {
+  width: 100%;
+  height: 14%;
+  // background-color: lightcoral;
+}
+
+// Footer Design
+.containerForLogo {
+  width: 100%;
+  height: 100px;
+  padding-bottom: 20px;
+  // background-color: #072330;
+}
+
+.containerForLogoTitle {
+  width: 100%;
+  height: 50%;
+  color: #d49f00;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.containerForLogoImage {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

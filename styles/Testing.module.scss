@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  //   background-color: red;
+}
+.containerOne {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(73, 248, 105);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.containerTwo {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(57, 75, 211);
+}
+.input {
+  width: 600px;
+  height: 50px;
+  outline-style: none;
+  margin-bottom: 20px;
+}
+.endAutoScrolls {
+  padding-bottom: 200px;
+}
+.endAutoScroll {
+  /* background-color: red; */
+  min-height: 30px;
+  max-height: 200px;
+  padding-bottom: 50px;
+}
